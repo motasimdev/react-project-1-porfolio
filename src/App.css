@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
 @theme {
+
+  /* color Part  */
   --color-primaryClr: #243c5a; 
+  /* color Part end */
+
+  /* font part  */
+   --font-pop: "Poppins", sans-serif;; 
+  /* font part end */
 }
