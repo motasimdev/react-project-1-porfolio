@@ -5,6 +5,7 @@ import Image from '../Image'
 import logo from '../../assets/logo.png'
 import Menu from '../Menu'
 import Button from '../Button'
+import { MdMailOutline } from "react-icons/md";
 
 const Header = () => {
   return (
@@ -16,7 +17,7 @@ const Header = () => {
                     <Image imgSrc={logo}/>
                 </div>
                 <div className="">
-                    <Menu className={`flex gap-5`}>
+                    <Menu className={`flex gap-5 font-pop uppercase text-sm tracking-widest tracking-widest`}>
                         <li>Home</li>
                         <li>About</li>
                         <li>Service</li>
@@ -24,7 +25,10 @@ const Header = () => {
                     </Menu>
                 </div>
                 <div className="">
-                    <Button className={"py-4 px-6 text-white"} btnTxt={"Contact"}/>
+                    <Button className={"py-3 px-6 text-white font-pop text-sm font-medium uppercase flex items-center gap-x-2"} btnTxt={<>
+                        hire me
+                        <MdMailOutline />
+                        </>}/>
                 </div>
             </Flex>
        </Container>
