@@ -2,15 +2,21 @@ import React from 'react'
 import Container from '../Container'
 import Flex from '../Flex'
 import Heading from '../Heading'
+import Button from '../Button'
 
 const Banner = () => {
   return (
     <>
-    <section>
+    <section className={"py-4 bg-banner"}>
         <Container>
-            <Flex>
+            <Flex className={"justify-between"}>
                 <div className="">
-                  <Heading text={"Hello hiii"} as={"h1"} className={"bg-amber-500"}/>
+                  <Heading text={"SAKIB AL HASAN"} as={"h4"}/>
+                  <Heading text={"Hello, my name’s Sakib. I’m MERN Stack Developer."} as={"h1"}/>
+                  <Button  btnTxt={<>
+                    CONTACT ME
+                    
+                    </>}/>
                 </div>
             </Flex>
         </Container>
