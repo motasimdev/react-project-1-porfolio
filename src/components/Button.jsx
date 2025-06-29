@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = ({btnTxt, className}) => {
   return (
-    <button className={`bg-primaryClr uppercase rounded-[50px] ${className}`}>{btnTxt}</button>
+    <button className={`uppercase rounded-[50px] ${className}`}>{btnTxt}</button>
   )
 }
 

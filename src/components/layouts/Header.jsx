@@ -31,7 +31,7 @@ const Header = () => {
                 {/* =========================== */}
               <Button
                 className={
-                  "py-3 px-6 text-white font-pop text-sm font-medium uppercase flex items-center gap-x-2"
+                  "py-3 px-6 text-white font-pop text-sm font-medium uppercase flex items-center gap-x-2 bg-primaryClr"
                 }
                 btnTxt={
                   <>
